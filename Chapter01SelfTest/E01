@@ -1,8 +1,5 @@
 What is bytecode and why is it important to Java´s use for Internet programming?
 
-Bytecode is a translation of the Java source code to a instruction set that can be executed by the Java Virtual Machine. 
-Byte code allow for better performance than direct interpretation of source code.
+Bytecode is a translation of the Java source code to a instruction set that can be executed by the Java Virtual Machine. Bytecode allow for better performance than direct interpretation of source code.
 
-Byte code reduces hardware and operating system dependance by allowing the same code to run on different platforms.
-A Java Virtual Machine incorporated into an Internet application, such as a web browser, makes it possible to run Java
-programs on a wide variety of different types of computer architectures connected to the Internet.
+Byte code reduces hardware and operating system dependence by allowing the same code to run on different platforms. A Java Virtual Machine incorporated into an Internet application, such as a web browser, makes it possible to run Java programs on a wide variety of different types of computer architectures connected to the Internet.
