@@ -3,7 +3,7 @@ package com.samdide.jabg;
 import java.text.DecimalFormat;
 
 /**
- * Converts a weight on earth to the corresponding weighth on the moon.
+ * Converts a weight on earth to the corresponding weight on the moon.
  * 
  * @author Henrik Samuelsson
  */
