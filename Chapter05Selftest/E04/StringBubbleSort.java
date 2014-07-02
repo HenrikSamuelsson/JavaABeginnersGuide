@@ -38,7 +38,6 @@ public class StringBubbleSort {
                     str[last] = temp;
                 }
             }
-
         }
 
         // Display array after sorting.
