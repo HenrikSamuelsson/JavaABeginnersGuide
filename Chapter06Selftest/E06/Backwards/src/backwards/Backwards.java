@@ -14,7 +14,7 @@ public class Backwards {
      */
     void printBackwards(String s) {
         if(s.length() != 1) {
-            // Remove the first character in the string and call printBacwards
+            // Remove the first character in the string and calls printBacwards
             // again.
             printBackwards(s.substring(1));
         }
