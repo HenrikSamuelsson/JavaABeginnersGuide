@@ -5,7 +5,7 @@ package twodshapes;
  * 
  * @author Henrik Samuelsson
  */
-public class Circle extends TwoDShape{
+public class Circle extends TwoDShape {
     
     /**
      * Constructs a circle.
