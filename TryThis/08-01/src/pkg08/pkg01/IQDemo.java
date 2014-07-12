@@ -1,7 +1,9 @@
 package pkg08.pkg01;
 
 /**
- *
+ * Illustrates how to implement an interface in java.
+ * An interface for a queue is implemented in three different ways an tested.
+ * 
  * @author Henrik Samuelsson
  */
 public class IQDemo {
