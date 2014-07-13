@@ -57,7 +57,7 @@ public class IQDemo {
     }
 
     /**
-     * A circular queue.          The circular queue works by reusing space in
+     * A circular queue. The circular queue works by reusing space in
      * the array that is freed when elements are retrieved.
      */
     public class CircularQueue implements ICharQ {
