@@ -3,7 +3,7 @@ package stack;
 /**
  * A simple stack.
  * Note that it is not possible to push a zero char ('0') since this is used to
- * indicate an empty when popping the stack.
+ * indicate an empty stack when popping the stack.
  * 
  * @author Henrik Samuelsson
  */
