@@ -39,6 +39,7 @@ public class MyThread extends Thread {
         
         System.out.println(getName() + " terminating.");
     }
+    
     /**
      * Entry point to application.
      * 
