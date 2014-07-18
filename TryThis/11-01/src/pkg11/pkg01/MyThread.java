@@ -20,7 +20,6 @@ public class MyThread extends Thread {
         // a reference to your object before it is fully constructed. The thread
         // will start before your constructor finishes. This can result in all 
         // kinds of weird behaviors.
-   
     }
     
     /**
