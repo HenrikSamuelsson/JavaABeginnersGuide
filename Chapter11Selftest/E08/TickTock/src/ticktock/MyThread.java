@@ -1,7 +1,7 @@
 package ticktock;
 
 /**
- * Creates a thread that will run the clock for a given time.
+ * A thread that will run the clock for a given time.
  * 
  * @author Henrik Samuelsson
  */
