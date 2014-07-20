@@ -46,6 +46,7 @@ public class Queue {
     
     /**
      * Gets a character from the queue.
+     * 
      * @return character from the queue
      */
     char get() {
