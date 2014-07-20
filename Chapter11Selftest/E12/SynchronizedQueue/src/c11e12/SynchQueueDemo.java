@@ -14,6 +14,7 @@ public class SynchQueueDemo {
         Thread t1, t2, t3;
 
         sq = new SynchronizedQueue(100);
+        
         c = new Consumer(sq);
         p1 = new Producer(sq);
         p2 = new Producer(sq);
