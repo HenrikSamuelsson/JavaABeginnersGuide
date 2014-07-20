@@ -46,7 +46,7 @@ public class Queue {
     
     /**
      * Gets a character from the queue.
-     * @return 
+     * @return character from the queue
      */
     char get() {
         if(getloc == putloc) {
