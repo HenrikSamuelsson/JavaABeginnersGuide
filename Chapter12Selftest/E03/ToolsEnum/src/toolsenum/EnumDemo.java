@@ -2,12 +2,14 @@ package toolsenum;
 
 /**
  * Exercise that explores enumerations.
+ * 
  * @author Henrik Samuelsson
  */
 public class EnumDemo {
 
     /**
      * Entry point to application
+     * 
      * @param args the command line arguments
      */
     public static void main(String[] args) { 
