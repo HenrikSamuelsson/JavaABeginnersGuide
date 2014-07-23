@@ -1,3 +1,0 @@
-An annotation can be applied only to methods. True or False?
-
-False. An annotationcan be used anywhere that other modifiers (such as public, static, or final) can be used. Note that JDK 8 is required for a type to have an annotation.
