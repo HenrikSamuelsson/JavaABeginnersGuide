@@ -1,7 +1,7 @@
 package factorial.lambda;
 
 /**
- * Demo of a block lamda tha computes a factorial.
+ * Demo of a block lambda tha computes a factorial.
  */
 public class FactorialLambdaDemo {
     public static void main(String args[]){
