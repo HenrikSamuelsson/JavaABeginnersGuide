@@ -47,7 +47,4 @@ public class JavoFXEventDemo extends Application {
         rootNode.getChildren().addAll(btnUp, btnExit, response);
         primaryStage.show();
     }
-
-   
-    
 }
