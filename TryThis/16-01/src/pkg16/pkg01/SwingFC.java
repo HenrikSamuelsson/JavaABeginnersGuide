@@ -13,29 +13,40 @@ import javax.swing.SwingUtilities;
 
 /**
  * Try This 16-1
- * 
+ *
  * A Swing-based file comparison utility.
- * 
+ *
  */
-
 public class SwingFC implements ActionListener {
 
-    /** Text field for  the first file name. */
+    /**
+     * Text field for the first file name.
+     */
     JTextField jtfFirst;
-    
-    /** Text field for the second file name. */
+
+    /**
+     * Text field for the second file name.
+     */
     JTextField jtfSecond;
-    
-    /** Label for jtfFirst. */
+
+    /**
+     * Label for jtfFirst.
+     */
     JLabel jlabFirst;
-    
-    /** Label for jtfSecond. */
+
+    /**
+     * Label for jtfSecond.
+     */
     JLabel jlabSecond;
-    
-    /** Label used to display results and error messages. */
+
+    /**
+     * Label used to display results and error messages.
+     */
     JLabel jlabResult;
-    
-    /** Constructs a swing based window application of type SwingFc. */
+
+    /**
+     * Constructs a swing based window application of type SwingFc.
+     */
     SwingFC() {
         JFrame jfrm = new JFrame("Compare Files");
         jfrm.setLayout(new FlowLayout());
@@ -50,7 +61,7 @@ public class SwingFC implements ActionListener {
         jlabFirst = new JLabel("First file: ");
         jlabSecond = new JLabel("Second file: ");
         jlabResult = new JLabel("");
-        
+
         // Add components to the frame.
         jfrm.add(jlabFirst);
         jfrm.add(jtfFirst);
@@ -58,42 +69,44 @@ public class SwingFC implements ActionListener {
         jfrm.add(jtfSecond);
         jfrm.add(jbtnComp);
         jfrm.add(jlabResult);
-         
+
         // Display the frame.
         jfrm.setVisible(true);
     }
-    
+
     // Compare the files when the Compare button is pressed.
     public void actionPerformed(ActionEvent ae) {
-        int i=0, j=0;
-        
-        if(jtfFirst.getText().equals("")) {
+        int i = 0, j = 0;
+
+        if (jtfFirst.getText().equals("")) {
             jlabResult.setText("First file name is missing.");
             return;
         }
-        if(jtfSecond.getText().equals("")) {
+        if (jtfSecond.getText().equals("")) {
             jlabResult.setText("Second file name is missing.");
             return;
         }
-        
+
         try (FileInputStream f1 = new FileInputStream(jtfFirst.getText());
-                FileInputStream f2 = new FileInputStream(jtfSecond.getText()))
-        {
+                FileInputStream f2 = new FileInputStream(jtfSecond.getText())) {
             // Check the content of each file.
             do {
                 i = f1.read();
                 j = f2.read();
-                if(i != j) break;
-            } while(i != -1 && j != -1);
-            if(i != j)
+                if (i != j) {
+                    break;
+                }
+            } while (i != -1 && j != -1);
+            if (i != j) {
                 jlabResult.setText("File content is not equal.");
-            else
+            } else {
                 jlabResult.setText("File content is equal.");
-        } catch(IOException exc) {
+            }
+        } catch (IOException exc) {
             jlabResult.setText("File Error");
         }
     }
-    
+
     public static void main(String args[]) {
         // Create the frame and run it on the event dispatching thread.
         SwingUtilities.invokeLater(new Runnable() {
