@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package javafxfilecompare;
 
 import java.io.FileInputStream;
@@ -23,7 +18,7 @@ import javafx.stage.Stage;
 /**
  * Compares the content of two files.
  * <p>
- * This software is relies on the JavaFX framework that is used for the
+ * This software relies on the JavaFX framework that is used for the
  * graphical user interface and event handling.
  *
  * @author Henrik Samuelsson
