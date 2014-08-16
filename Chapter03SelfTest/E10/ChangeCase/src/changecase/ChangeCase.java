@@ -2,8 +2,8 @@ package changecase;
 
 /**
  * Changes lower case characters to upper and vice versa.
- * Supports the swedish letters å, ä and ö in addition to the letters in the
- * english alphabet.
+ * Supports the Swedish letters å, ä and ö in addition to the letters in the
+ * English alphabet.
  * 
  * @author Henrik Samuelsson
  */
